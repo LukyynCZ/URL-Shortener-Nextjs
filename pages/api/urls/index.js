@@ -1,4 +1,4 @@
-import { createUrl } from '../../../lib/prisma/urls';
+import { createUrl } from '../../../lib/utils/urls';
 
 const handler = async (req, res) => {
   if (req.method === 'POST') {
